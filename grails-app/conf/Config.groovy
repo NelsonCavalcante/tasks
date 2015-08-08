@@ -114,4 +114,8 @@ log4j.main = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
+
+    debug 'grails.plugin.heroku',
+          'Grails.plugin.memcached',
+          'Grails.plugin.cloudsupport'
 }
